@@ -1,0 +1,153 @@
+/* google font poppine */
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+Tokumin:wght@400;500;700&family=Poppins:wght@600&family=Roboto&family=Roboto+Condensed:wght@300;400;700&family=Roboto+Slab:wght@500&display=swap');
+
+/* common utilities style */
+body {
+    font-family: 'Kaisei Tokumin', serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+header {
+    background-color: antiquewhite;
+}
+
+.container {
+    width: 1100px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.logo {
+    flex-basis: 20%;
+}
+
+.logo img {
+    width: 150px;
+}
+
+.nav {
+    margin: 0%;
+    padding: 0%;
+    flex-basis: 80%;
+}
+
+.nav ul {
+    display: flex;
+    margin: 0%;
+    padding: 0%;
+    list-style: none;
+    justify-content: center;
+    gap: 15px;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition-duration: 0.4s;
+}
+
+.nav ul li a:hover {
+    color: brown;
+    background-color: white;
+}
+
+.banner {
+    margin: auto;
+    background-image: url(../images/9.jpg);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*background-position: center;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #654343;
+    background-blend-mode: soft-light;
+}
+
+.banner-container {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.banner-container h1 {
+    color: white;
+    font-size: 50px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+.gallery-section {
+    padding: 30px 0;
+}
+
+.gallery-section h2 {
+    color: maroon;
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+.gallery-container {
+    width: 1100px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.gallery {
+    flex-basis: 33.33%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.gallery img {
+    display: block;
+    aspect-ratio: 2/1.5;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 7px;
+}
+
+
+.logo-section {
+    padding: 0px 0;
+    background-color: antiquewhite;
+}
+
+.logo-container {
+    width: 1100px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    overflow-x: scroll;
+}
+
+.logo {
+    display: flex;
+    gap: 20px;
+}
+
+.logo img {
+    width: 100px;
+}
